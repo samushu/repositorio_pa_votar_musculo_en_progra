@@ -48,6 +48,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ?>
         <?php endif; ?>
     </main>
+    
+    <div class="volver">
+    <a href="index.php" class="boton-volver">Volver al menú principal</a>
+</div>
 
     <footer>
         <p><a href="index.php">Volver al menú principal</a></p>

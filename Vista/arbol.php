@@ -41,6 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Postorden:</strong> <?php echo implode(" -> ", $resultado['postorden']); ?></p>
         <?php endif; ?>
     </main>
+        
+    <div class="volver">
+    <a href="index.php" class="boton-volver">Volver al menú principal</a>
+</div>
 
     <footer>
         <p><a href="index.php">Volver al menú principal</a></p>
